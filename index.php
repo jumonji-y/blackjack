@@ -34,6 +34,9 @@ function init_cards()
 }
 
 
+
+
+
 // 持ち札の合計を出すための関数
 function sum_hands_cards($hand_cards)
 {
