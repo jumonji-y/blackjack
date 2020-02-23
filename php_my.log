@@ -1,0 +1,188 @@
+[11-Feb-2020 18:25:31 Asia/Tokyo] PHP Warning:  include(cardClass.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 5
+[11-Feb-2020 18:25:31 Asia/Tokyo] PHP Warning:  include(): Failed opening 'cardClass.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.10/lib/php') in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 5
+[11-Feb-2020 18:25:31 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Class 'Card' not found in /Applications/MAMP/htdocs/objective/brackjack/show.php:9
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 9
+[11-Feb-2020 18:25:48 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Class 'Card' not found in /Applications/MAMP/htdocs/objective/brackjack/show.php:9
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 9
+[11-Feb-2020 18:26:20 Asia/Tokyo] PHP Notice:  Undefined variable: marks in /Applications/MAMP/htdocs/objective/brackjack/deckClass.php on line 11
+[11-Feb-2020 18:26:20 Asia/Tokyo] PHP Notice:  Undefined property: Deck::$ in /Applications/MAMP/htdocs/objective/brackjack/deckClass.php on line 11
+[11-Feb-2020 18:26:20 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/objective/brackjack/deckClass.php on line 11
+[11-Feb-2020 18:26:20 Asia/Tokyo] PHP Notice:  Undefined variable: deck in /Applications/MAMP/htdocs/objective/brackjack/deckClass.php on line 21
+[11-Feb-2020 18:26:20 Asia/Tokyo] PHP Warning:  shuffle() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/deckClass.php on line 21
+[11-Feb-2020 18:26:20 Asia/Tokyo] PHP Notice:  Undefined variable: deck in /Applications/MAMP/htdocs/objective/brackjack/deckClass.php on line 22
+[11-Feb-2020 18:26:20 Asia/Tokyo] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 20
+[11-Feb-2020 18:28:48 Asia/Tokyo] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 20
+[11-Feb-2020 18:29:32 Asia/Tokyo] PHP Notice:  Undefined variable: deck in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 18
+[11-Feb-2020 18:29:32 Asia/Tokyo] PHP Notice:  Undefined variable: deck in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 18
+[11-Feb-2020 18:29:56 Asia/Tokyo] PHP Notice:  Undefined variable: deck in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 18
+[11-Feb-2020 18:29:56 Asia/Tokyo] PHP Notice:  Undefined variable: deck in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 18
+[11-Feb-2020 18:30:27 Asia/Tokyo] PHP Notice:  Undefined variable: deck in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 13
+[11-Feb-2020 18:30:27 Asia/Tokyo] PHP Notice:  Undefined variable: deck in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 19
+[11-Feb-2020 18:30:27 Asia/Tokyo] PHP Notice:  Undefined variable: deck in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 19
+[11-Feb-2020 18:30:28 Asia/Tokyo] PHP Notice:  Undefined variable: deck in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 13
+[11-Feb-2020 18:30:28 Asia/Tokyo] PHP Notice:  Undefined variable: deck in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 19
+[11-Feb-2020 18:30:28 Asia/Tokyo] PHP Notice:  Undefined variable: deck in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 19
+[11-Feb-2020 18:33:44 Asia/Tokyo] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 15
+[11-Feb-2020 18:34:50 Asia/Tokyo] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 26
+[11-Feb-2020 18:34:55 Asia/Tokyo] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 26
+[11-Feb-2020 18:35:20 Asia/Tokyo] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 26
+[11-Feb-2020 18:37:11 Asia/Tokyo] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 26
+[11-Feb-2020 18:40:15 Asia/Tokyo] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 24
+[11-Feb-2020 18:40:16 Asia/Tokyo] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 24
+[11-Feb-2020 18:40:35 Asia/Tokyo] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 26
+[11-Feb-2020 18:42:31 Asia/Tokyo] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 24
+[11-Feb-2020 18:42:55 Asia/Tokyo] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 25
+[11-Feb-2020 18:43:38 Asia/Tokyo] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 23
+[11-Feb-2020 18:43:38 Asia/Tokyo] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 23
+[11-Feb-2020 18:48:09 Asia/Tokyo] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 18:48:09 Asia/Tokyo] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 30
+[11-Feb-2020 18:49:33 Asia/Tokyo] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 30
+[11-Feb-2020 18:50:53 Asia/Tokyo] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 30
+[11-Feb-2020 18:50:55 Asia/Tokyo] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 30
+[11-Feb-2020 19:25:36 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 7
+[11-Feb-2020 19:25:37 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 7
+[11-Feb-2020 19:25:37 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 7
+[11-Feb-2020 19:25:38 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 7
+[11-Feb-2020 19:25:38 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 7
+[11-Feb-2020 19:58:07 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 19:58:07 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 19:58:08 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 19:58:08 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 19:58:08 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 19:58:08 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 19:58:09 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 19:58:09 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 19:58:09 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 19:58:09 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 19:58:09 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 19:58:09 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 20:10:23 Asia/Tokyo] PHP Notice:  Undefined variable: deck in /Applications/MAMP/htdocs/objective/brackjack/deckClass.php on line 32
+[11-Feb-2020 20:10:23 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 20:10:23 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 20:10:25 Asia/Tokyo] PHP Notice:  Undefined variable: deck in /Applications/MAMP/htdocs/objective/brackjack/deckClass.php on line 32
+[11-Feb-2020 20:10:25 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 20:10:25 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 20:10:26 Asia/Tokyo] PHP Notice:  Undefined variable: deck in /Applications/MAMP/htdocs/objective/brackjack/deckClass.php on line 32
+[11-Feb-2020 20:10:26 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 20:10:26 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 20:10:29 Asia/Tokyo] PHP Notice:  Undefined variable: deck in /Applications/MAMP/htdocs/objective/brackjack/deckClass.php on line 32
+[11-Feb-2020 20:10:29 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 20:10:29 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 20:10:29 Asia/Tokyo] PHP Notice:  Undefined variable: deck in /Applications/MAMP/htdocs/objective/brackjack/deckClass.php on line 32
+[11-Feb-2020 20:10:29 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 20:10:29 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 20:10:41 Asia/Tokyo] PHP Notice:  Undefined variable: deck in /Applications/MAMP/htdocs/objective/brackjack/deckClass.php on line 32
+[11-Feb-2020 20:10:42 Asia/Tokyo] PHP Notice:  Undefined variable: deck in /Applications/MAMP/htdocs/objective/brackjack/deckClass.php on line 32
+[11-Feb-2020 20:10:42 Asia/Tokyo] PHP Notice:  Undefined variable: deck in /Applications/MAMP/htdocs/objective/brackjack/deckClass.php on line 32
+[11-Feb-2020 20:10:42 Asia/Tokyo] PHP Notice:  Undefined variable: deck in /Applications/MAMP/htdocs/objective/brackjack/deckClass.php on line 32
+[11-Feb-2020 20:10:42 Asia/Tokyo] PHP Notice:  Undefined variable: deck in /Applications/MAMP/htdocs/objective/brackjack/deckClass.php on line 32
+[11-Feb-2020 20:10:43 Asia/Tokyo] PHP Notice:  Undefined variable: deck in /Applications/MAMP/htdocs/objective/brackjack/deckClass.php on line 32
+[11-Feb-2020 20:10:43 Asia/Tokyo] PHP Notice:  Undefined variable: deck in /Applications/MAMP/htdocs/objective/brackjack/deckClass.php on line 32
+[11-Feb-2020 20:10:43 Asia/Tokyo] PHP Notice:  Undefined variable: deck in /Applications/MAMP/htdocs/objective/brackjack/deckClass.php on line 32
+[11-Feb-2020 20:11:54 Asia/Tokyo] PHP Warning:  shuffle() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/deckClass.php on line 30
+[11-Feb-2020 20:11:54 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 20:11:54 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 30
+[11-Feb-2020 20:11:54 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 20:11:54 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 30
+[11-Feb-2020 20:11:55 Asia/Tokyo] PHP Warning:  shuffle() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/deckClass.php on line 30
+[11-Feb-2020 20:11:55 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 20:11:55 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 30
+[11-Feb-2020 20:11:55 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 20:11:55 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 30
+[11-Feb-2020 20:11:57 Asia/Tokyo] PHP Warning:  shuffle() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/deckClass.php on line 30
+[11-Feb-2020 20:11:57 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 20:11:57 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 30
+[11-Feb-2020 20:11:57 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 20:11:57 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 30
+[11-Feb-2020 20:11:57 Asia/Tokyo] PHP Warning:  shuffle() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/deckClass.php on line 30
+[11-Feb-2020 20:11:57 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 20:11:57 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 30
+[11-Feb-2020 20:11:57 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 20:11:57 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 30
+[11-Feb-2020 20:11:57 Asia/Tokyo] PHP Warning:  shuffle() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/deckClass.php on line 30
+[11-Feb-2020 20:11:57 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 20:11:57 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 30
+[11-Feb-2020 20:11:57 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 20:11:57 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 30
+[11-Feb-2020 20:11:57 Asia/Tokyo] PHP Warning:  shuffle() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/deckClass.php on line 30
+[11-Feb-2020 20:11:57 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 20:11:57 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 30
+[11-Feb-2020 20:11:57 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 20:11:57 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 30
+[11-Feb-2020 20:11:57 Asia/Tokyo] PHP Warning:  shuffle() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/deckClass.php on line 30
+[11-Feb-2020 20:11:57 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 20:11:57 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 30
+[11-Feb-2020 20:11:57 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 20:11:57 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 30
+[11-Feb-2020 20:12:15 Asia/Tokyo] PHP Warning:  shuffle() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/deckClass.php on line 29
+[11-Feb-2020 20:12:15 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 20:12:15 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 30
+[11-Feb-2020 20:12:15 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 20:12:15 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 30
+[11-Feb-2020 20:13:03 Asia/Tokyo] PHP Warning:  shuffle() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/deckClass.php on line 29
+[11-Feb-2020 20:13:03 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 20:13:03 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 30
+[11-Feb-2020 20:13:03 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 20:13:03 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 30
+[11-Feb-2020 20:13:35 Asia/Tokyo] PHP Warning:  shuffle() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/deckClass.php on line 29
+[11-Feb-2020 20:13:35 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 20:13:35 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 20:13:36 Asia/Tokyo] PHP Warning:  shuffle() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/deckClass.php on line 29
+[11-Feb-2020 20:13:36 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 20:13:36 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 29
+[11-Feb-2020 22:09:52 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function shuffleCard() on array in /Applications/MAMP/htdocs/objective/brackjack/show.php:15
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 15
+[11-Feb-2020 22:10:17 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function shuffleCard() on array in /Applications/MAMP/htdocs/objective/brackjack/show.php:15
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 15
+[11-Feb-2020 22:10:33 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function shuffleCard() on array in /Applications/MAMP/htdocs/objective/brackjack/show.php:15
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 15
+[11-Feb-2020 22:10:34 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function shuffleCard() on array in /Applications/MAMP/htdocs/objective/brackjack/show.php:15
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 15
+[11-Feb-2020 22:10:34 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function shuffleCard() on array in /Applications/MAMP/htdocs/objective/brackjack/show.php:15
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 15
+[11-Feb-2020 22:10:34 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function shuffleCard() on array in /Applications/MAMP/htdocs/objective/brackjack/show.php:15
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 15
+[11-Feb-2020 22:12:29 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function shuffleCard() on array in /Applications/MAMP/htdocs/objective/brackjack/show.php:15
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 15
+[11-Feb-2020 22:28:09 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function shuffleCard() on array in /Applications/MAMP/htdocs/objective/brackjack/show.php:15
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 15
+[11-Feb-2020 22:28:13 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function shuffleCard() on array in /Applications/MAMP/htdocs/objective/brackjack/show.php:15
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 15
+[11-Feb-2020 22:28:23 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function shuffleCard() on array in /Applications/MAMP/htdocs/objective/brackjack/show.php:15
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 15
+[11-Feb-2020 22:28:24 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function shuffleCard() on array in /Applications/MAMP/htdocs/objective/brackjack/show.php:15
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 15
+[11-Feb-2020 22:28:24 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function shuffleCard() on array in /Applications/MAMP/htdocs/objective/brackjack/show.php:15
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 15
+[11-Feb-2020 23:14:25 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function shuffleCard() on array in /Applications/MAMP/htdocs/objective/brackjack/show.php:15
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/objective/brackjack/show.php on line 15
