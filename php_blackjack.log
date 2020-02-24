@@ -3510,29 +3510,3 @@ Stack trace:
 [24-Feb-2020 01:24:03 Asia/Tokyo] PHP Notice:  Undefined index: end_game_flg in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 339
 [24-Feb-2020 01:24:13 Asia/Tokyo] PHP Notice:  Undefined index: end_game_flg in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 339
 [24-Feb-2020 01:24:16 Asia/Tokyo] PHP Notice:  Undefined index: end_game_flg in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 339
-[25-Feb-2020 01:27:30 Asia/Tokyo] PHP Warning:  Use of undefined constant A - assumed 'A' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 21
-[25-Feb-2020 01:27:30 Asia/Tokyo] PHP Warning:  Use of undefined constant J - assumed 'J' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 21
-[25-Feb-2020 01:27:30 Asia/Tokyo] PHP Warning:  Use of undefined constant Q - assumed 'Q' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 21
-[25-Feb-2020 01:27:30 Asia/Tokyo] PHP Warning:  Use of undefined constant K - assumed 'K' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 21
-[25-Feb-2020 01:27:37 Asia/Tokyo] PHP Warning:  Use of undefined constant A - assumed 'A' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 21
-[25-Feb-2020 01:27:37 Asia/Tokyo] PHP Warning:  Use of undefined constant J - assumed 'J' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 21
-[25-Feb-2020 01:27:37 Asia/Tokyo] PHP Warning:  Use of undefined constant Q - assumed 'Q' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 21
-[25-Feb-2020 01:27:37 Asia/Tokyo] PHP Warning:  Use of undefined constant K - assumed 'K' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 21
-[25-Feb-2020 01:27:52 Asia/Tokyo] PHP Warning:  Use of undefined constant A - assumed 'A' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 21
-[25-Feb-2020 01:27:52 Asia/Tokyo] PHP Warning:  Use of undefined constant J - assumed 'J' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 21
-[25-Feb-2020 01:27:52 Asia/Tokyo] PHP Warning:  Use of undefined constant Q - assumed 'Q' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 21
-[25-Feb-2020 01:27:52 Asia/Tokyo] PHP Warning:  Use of undefined constant K - assumed 'K' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 21
-[25-Feb-2020 01:28:40 Asia/Tokyo] PHP Warning:  Use of undefined constant A - assumed 'A' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 21
-[25-Feb-2020 01:28:40 Asia/Tokyo] PHP Warning:  Use of undefined constant J - assumed 'J' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 21
-[25-Feb-2020 01:28:40 Asia/Tokyo] PHP Warning:  Use of undefined constant Q - assumed 'Q' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 21
-[25-Feb-2020 01:28:40 Asia/Tokyo] PHP Warning:  Use of undefined constant K - assumed 'K' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 21
-[25-Feb-2020 01:28:48 Asia/Tokyo] PHP Warning:  Use of undefined constant A - assumed 'A' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 21
-[25-Feb-2020 01:28:48 Asia/Tokyo] PHP Warning:  Use of undefined constant J - assumed 'J' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 21
-[25-Feb-2020 01:28:48 Asia/Tokyo] PHP Warning:  Use of undefined constant Q - assumed 'Q' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 21
-[25-Feb-2020 01:28:48 Asia/Tokyo] PHP Warning:  Use of undefined constant K - assumed 'K' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 21
-[25-Feb-2020 01:28:48 Asia/Tokyo] PHP Notice:  Undefined index: end_game_flg in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 335
-[25-Feb-2020 01:28:51 Asia/Tokyo] PHP Warning:  Use of undefined constant A - assumed 'A' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 21
-[25-Feb-2020 01:28:51 Asia/Tokyo] PHP Warning:  Use of undefined constant J - assumed 'J' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 21
-[25-Feb-2020 01:28:51 Asia/Tokyo] PHP Warning:  Use of undefined constant Q - assumed 'Q' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 21
-[25-Feb-2020 01:28:51 Asia/Tokyo] PHP Warning:  Use of undefined constant K - assumed 'K' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 21
-[25-Feb-2020 01:28:51 Asia/Tokyo] PHP Notice:  Undefined index: end_game_flg in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 335

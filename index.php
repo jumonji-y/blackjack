@@ -18,12 +18,16 @@ $opp_total_hands = 0;
 function init_cards()
 {
     $cards = array();
-    $numbers  = [A => 1, 2 => 2, 3 => 3, 4 => 4, 5 => 5, 6 => 6, 7 => 7, 8 => 8,9 => 9, 10 => 10, J => 10, Q => 10, K => 10];
+
+    $numbers  = array('2' => 2, '3' => 3, '4' => 4, '5' => 5, '6' => 6, '7' => 7, '8' => 8,'9' => 9, '10' => 10, 'j' => 10, 'q' => 10, 'k' => 10, 'a' => 1);
     $marks = ['ハート','ダイヤ','スペード','クラブ'];
 
+    // var_dump($numbers);
     foreach ($marks as $mark) {
         foreach ($numbers as $number) {
+        foreach ($numbers as $face => $number) {
             $cards[] = array(
+            'face' => $face,
             'number' => $number,
             'mark' => $mark
             );
@@ -39,6 +43,7 @@ function sum_hands_cards($hand_cards)
     $total = 0;
     foreach ($hand_cards as $hand_card) {
         $total += $hand_card['number'];
+        var_dump($hand_card['number']);
     }
     return $total;
 }
@@ -162,7 +167,6 @@ function startGame()
           $player_hands[] = array_shift($_SESSION['cards']);
           $_SESSION['player_hands'] += $player_hands;
           $cards = $_SESSION['cards'];
-          var_dump($cards);
 
           // 手札のカードの数を足す
           $total_player_hands = sum_hands_cards($player_hands);
@@ -199,7 +203,6 @@ function startGame()
           $_SESSION['message'] = 'カードを引いた！';
           $_SESSION['end_game_flg'] = $end_game_flg;
 
-          var_dump($_SESSION['end_game_flg']);
       } elseif (!empty($_POST['restart'])) {
           // もしリスタートボタンが押されたら
           $_SESSION = array();
@@ -270,19 +273,6 @@ function startGame()
           $_SESSION['total_player_hands'] = $total_player_hands;
           $_SESSION['message'] = 'スタンドしました。';
           $_SESSION['end_game_flg'] = $end_game_flg;
-
-          var_dump($_SESSION['end_game_flg']);
-
-          //         // if ($total_player_hands > 21 || $total_dealer_hands > 21) {
-    //         // $end_game_flg = true;
-    //         // }
-
-    //         // sessionに値を詰める
-    //         $_SESSION["name"] = $user_name;
-    //         $_SESSION['$cards'] = $cards;
-    //         $_SESSION['player_hands'] = $player_hands;
-    //         $_SESSION['dealer_hands'] = $dealer_hands;
-    //     }
       }
   
 
@@ -309,7 +299,7 @@ function startGame()
 ディーラーの手札：
 <?php
 foreach ($_SESSION['dealer_hands'] as $card) {
-    echo '【'.$card['mark'].'の'.$card['number'].'】  ';
+    echo '【'.$card['mark'].'の'.$card['face'].'】  ';
 }
 ?>
 <br>
@@ -322,7 +312,7 @@ foreach ($_SESSION['dealer_hands'] as $card) {
 あなたの手札：
 <?php
 foreach ($_SESSION['player_hands'] as $card) {
-    echo '【'.$card['mark'].'の'.$card['number'].'】  ';
+    echo '【'.$card['mark'].'の'.$card['face'].'】  ';
 }
 ?>
 <br>
