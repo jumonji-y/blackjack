@@ -10,7 +10,6 @@ $dealer_hands = array();
 // ゲームを終了するかどうかのフラグを立てる
 // falseなら続行、trueなら終了
 $end_game_flg = false;
-// 自分の手札の合計値
 $my_total_hands = 0;
 $opp_total_hands = 0;
 
@@ -18,11 +17,12 @@ $opp_total_hands = 0;
 function init_cards()
 {
     $cards = array();
-    $numbers  = [A => 1, 2 => 2, 3 => 3, 4 => 4, 5 => 5, 6 => 6, 7 => 7, 8 => 8,9 => 9, 10 => 10, J => 10, Q => 10, K => 10];
+    $numbers  = [1,2,3,4,5,6,7,8,9,10,11,12,13];
     $marks = ['ハート','ダイヤ','スペード','クラブ'];
 
     foreach ($marks as $mark) {
         foreach ($numbers as $number) {
+            // for文でもいいかも？1~13を回す感じで。
             $cards[] = array(
             'number' => $number,
             'mark' => $mark
@@ -32,6 +32,10 @@ function init_cards()
     shuffle($cards);
     return $cards;
 }
+
+
+
+
 
 // 持ち札の合計を出すための関数
 function sum_hands_cards($hand_cards)
@@ -142,14 +146,17 @@ function startGame()
     $total_player_hands = sum_hands_cards($player_hands);
     $total_dealer_hands = sum_hands_cards($dealer_hands);
 
-    $_SESSION['cards'] = $cards;
-    $_SESSION['player_hands'] = $player_hands;
-    $_SESSION['dealer_hands'] = $dealer_hands;
-    $_SESSION['total_dealer_hands'] = $total_dealer_hands;
-    $_SESSION['total_player_hands'] = $total_player_hands;
-    $_SESSION['end_game_flg'] = $end_game_flg;
+      $_SESSION['cards'] = $cards;
+      $_SESSION['player_hands'] = $player_hands;
+      $_SESSION['dealer_hands'] = $dealer_hands;
+      $_SESSION['total_dealer_hands'] = $total_dealer_hands;
+      $_SESSION['total_player_hands'] = $total_player_hands;
+      $_SESSION['end_game_flg'] = $end_game_flg;
 
       gameJudge($_SESSION['total_player_hands'],$_SESSION['total_dealer_hands']);
+  //  echo "エンドフラグ：".$end_game_flg;
+  var_dump(gameJudge($_SESSION['total_player_hands'],$_SESSION['total_dealer_hands']));
+      //  var_dump($_SESSION['cards']);
   }
       // もしPOST送信(ヒット)されていたら
       if (!empty($_POST['hit'])) {
