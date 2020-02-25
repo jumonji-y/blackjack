@@ -7,10 +7,10 @@ session_start();
 // ユーザーとディーラーの持ち手を初期化
 $player_hands = array();
 $dealer_hands = array();
-// ゲームを終了するかどうかのフラグを立てる
+// ゲームを終了するかどうかのフラグを立てる(最初はfalse)
 // falseなら続行、trueなら終了
 $end_game_flg = false;
-// 自分の手札の合計値
+// 自分の手札の合計値 初期値
 $my_total_hands = 0;
 $opp_total_hands = 0;
 
@@ -18,23 +18,21 @@ $opp_total_hands = 0;
 function init_cards()
 {
     $cards = array();
-
-    $numbers  = array('2' => 2, '3' => 3, '4' => 4, '5' => 5, '6' => 6, '7' => 7, '8' => 8,'9' => 9, '10' => 10, 'j' => 10, 'q' => 10, 'k' => 10, 'a' => 1);
+    $numbers  = array('2' => 2, '3' => 3, '4' => 4, '5' => 5, '6' => 6, '7' => 7, '8' => 8,'9' => 9, '10' => 10, "J" => 10, "Q" => 10, "K" => 10, "A" => 1);
     $marks = ['ハート','ダイヤ','スペード','クラブ'];
 
     // var_dump($numbers);
     foreach ($marks as $mark) {
-        foreach ($numbers as $number) {
         foreach ($numbers as $face => $number) {
             $cards[] = array(
-            'face' => $face,
-            'number' => $number,
-            'mark' => $mark
+              'mark' => $mark,
+              'face' => $face,
+              'number' => $number,
             );
         }
     }
-    shuffle($cards);
-    return $cards;
+        shuffle($cards);
+        return $cards;
 }
 
 // 持ち札の合計を出すための関数
@@ -43,7 +41,10 @@ function sum_hands_cards($hand_cards)
     $total = 0;
     foreach ($hand_cards as $hand_card) {
         $total += $hand_card['number'];
-        var_dump($hand_card['number']);
+    }
+    // エースの処理（手持ちにAがあって、合計が11以下の場合、11として扱う）
+    if($hand_card['number'] == 1 && $total <= 11){
+      $total += 10;
     }
     return $total;
 }
@@ -72,6 +73,8 @@ function sayJudge($end_game_flg, $my_total_hands, $opp_total_hands)
 // プレーヤーかディーラーの持ち札が21を超えていたら、ゲーム終了
 function gameJudge($total_player_hands,$total_dealer_hands)
 {
+    global $end_game_flg;
+
     if ($total_player_hands > 21 || $total_dealer_hands > 21) {
         $end_game_flg = true;
     } else {
@@ -81,7 +84,7 @@ function gameJudge($total_player_hands,$total_dealer_hands)
 }
 
 
-// ディーラーの思考回路
+// ディーラーの思考回路の関数
 function decideDealerTurn()
 {
     // もしPOST送信（ヒットか、スタンド）があったら
@@ -116,21 +119,18 @@ function startGame()
     $total_player_hands = sum_hands_cards($player_hands);
     $total_dealer_hands = sum_hands_cards($dealer_hands);
 
-      $_SESSION['cards'] = $cards;
-      $_SESSION['player_hands'] = $player_hands;
-      $_SESSION['dealer_hands'] = $dealer_hands;
-      $_SESSION['total_dealer_hands'] = $total_dealer_hands;
-      $_SESSION['total_player_hands'] = $total_player_hands;
+    gameJudge($total_player_hands, $total_dealer_hands);
 
-      gameJudge($total_player_hands, $total_dealer_hands);
-   echo "エンドフラグ：".$end_game_flg;
+    $_SESSION['cards'] = $cards;
+    $_SESSION['player_hands'] = $player_hands;
+    $_SESSION['dealer_hands'] = $dealer_hands;
+    $_SESSION['total_dealer_hands'] = $total_dealer_hands;
+    $_SESSION['total_player_hands'] = $total_player_hands;
 }
 
 
 // ゲームの処理の流れ
-  // if (empty($_POST)  || empty($_SESSION)) {
   if (empty($_POST)) {
-
     global $end_game_flg;
     $_SESSION['message'] = 'ゲームスタート！';
 
@@ -147,134 +147,128 @@ function startGame()
     $total_player_hands = sum_hands_cards($player_hands);
     $total_dealer_hands = sum_hands_cards($dealer_hands);
 
+    // カードが渡された時点でもし手札が21を超えていたらゲーム終了
+    gameJudge($total_player_hands, $total_dealer_hands);
+
     $_SESSION['cards'] = $cards;
     $_SESSION['player_hands'] = $player_hands;
     $_SESSION['dealer_hands'] = $dealer_hands;
     $_SESSION['total_dealer_hands'] = $total_dealer_hands;
     $_SESSION['total_player_hands'] = $total_player_hands;
     $_SESSION['end_game_flg'] = $end_game_flg;
-
-      gameJudge($_SESSION['total_player_hands'],$_SESSION['total_dealer_hands']);
   }
-      // もしPOST送信(ヒット)されていたら
-      if (!empty($_POST['hit'])) {
-          $cards = $_SESSION['cards'];
-          $player_hands = $_SESSION['player_hands'];
-          $dealer_hands = $_SESSION['dealer_hands'];
-          $end_game_flg = false;
 
-          // カードをもう一枚引く
-          $player_hands[] = array_shift($_SESSION['cards']);
-          $_SESSION['player_hands'] += $player_hands;
-          $cards = $_SESSION['cards'];
+// もしPOST送信(ヒット)されていたら
+if (!empty($_POST['hit'])) {
 
-          // 手札のカードの数を足す
-          $total_player_hands = sum_hands_cards($player_hands);
+    $end_game_flg = false;
+    $player_hands = $_SESSION['player_hands'];
+    $dealer_hands = $_SESSION['dealer_hands'];
+
+    // カードをもう一枚引く
+    $player_hands[] = array_shift($_SESSION['cards']);
+    $_SESSION['player_hands'] += $player_hands;
+    $cards = $_SESSION['cards'];
+
+    // 手札のカードの数を足す
+    $total_player_hands = sum_hands_cards($player_hands);
+    $total_dealer_hands = sum_hands_cards($dealer_hands);
+
+    //  decideDealerTurn();
+    if (!empty($_POST['hit']) || !empty($_POST['stand'])) {
+      // ディーラーがカードを引くかどうか判断するための閾値を設定
+      $set_value = 16;
+      // 持ち札が16以下なら、ヒット(一枚引く)
+      if ($total_dealer_hands <= $set_value) {
+          $dealer_hands[] = array_shift($_SESSION['cards']);
           $total_dealer_hands = sum_hands_cards($dealer_hands);
-
-          //  decideDealerTurn();
-          if (!empty($_POST['hit']) || !empty($_POST['stand'])) {
-            // ディーラーがカードを引くかどうか判断するための閾値を設定
-            $set_value = 16;
-            // 持ち札が16以下なら、ヒット(一枚引く)
-            if ($total_dealer_hands <= $set_value) {
-                $dealer_hands[] = array_shift($cards);
-                $total_dealer_hands = sum_hands_cards($dealer_hands);
-                // return $total_dealer_hands;
-            // POST送信（スタンド）があったら、ゲーム終了（勝敗判定）
-            } elseif (!empty($_POST['stand'])) {
-                $end_game_flg = true;
-            }
-        }
-
-          // ゲームの勝敗判定
-          // プレーヤーかディーラーの持ち札が21を超えていたら、ゲーム終了
-          if ($total_player_hands > 21 || $total_dealer_hands > 21) {
-              $end_game_flg = true;
-            } else {
-              $end_game_flg = false;
-            }
-
-          $_SESSION['cards'] = $cards;
-          $_SESSION['player_hands'] = $player_hands;
-          $_SESSION['dealer_hands'] = $dealer_hands;
-          $_SESSION['total_dealer_hands'] = $total_dealer_hands;
-          $_SESSION['total_player_hands'] = $total_player_hands;
-          $_SESSION['message'] = 'カードを引いた！';
-          $_SESSION['end_game_flg'] = $end_game_flg;
-
-      } elseif (!empty($_POST['restart'])) {
-          // もしリスタートボタンが押されたら
-          $_SESSION = array();
-
-          // 山札の準備
-          $cards = init_cards();
-
-          // プレーヤーとディーラーに2枚ずつ配る
-          for ($i = 1; $i < 3; $i++) {
-              $player_hands[] = array_shift($cards);
-              $dealer_hands[] = array_shift($cards);
-          }
-
-          // プレーヤーと、ディーラーの持ち札の合計を算出
-          $total_player_hands = sum_hands_cards($player_hands);
-          $total_dealer_hands = sum_hands_cards($dealer_hands);
-
-          gameJudge($total_player_hands,$total_dealer_hands);
-
-          $_SESSION['cards'] = $cards;
-          $_SESSION['player_hands'] = $player_hands;
-          $_SESSION['dealer_hands'] = $dealer_hands;
-          $_SESSION['total_dealer_hands'] = $total_dealer_hands;
-          $_SESSION['total_player_hands'] = $total_player_hands;
-          $_SESSION['message'] = 'ゲーム再スタート！';
-
-        // もしスタンドボタンを押されたら
+          // return $total_dealer_hands;
+      // POST送信（スタンド）があったら、ゲーム終了（勝敗判定）
       } elseif (!empty($_POST['stand'])) {
-          $cards = $_SESSION['cards'];
-          $player_hands = $_SESSION['player_hands'];
-          $dealer_hands = $_SESSION['dealer_hands'];
-
-          // プレーヤーと、ディーラーの持ち札の合計を算出
-          $total_player_hands = sum_hands_cards($player_hands);
-          $total_dealer_hands = sum_hands_cards($dealer_hands);
-
-          // ディーラーの次の手を判断する
-          // decideDealerTurn();
-          if (!empty($_POST['hit']) || !empty($_POST['stand'])) {
-              // ディーラーがカードを引くかどうか判断するための閾値を設定
-              $set_value = 16;
-              // 持ち札が16以下なら、ヒット(一枚引く)
-              if ($total_dealer_hands <= $set_value) {
-                  $dealer_hands[] = array_shift($cards);
-                  $total_dealer_hands = sum_hands_cards($dealer_hands);
-                  // return $total_dealer_hands;
-              // POST送信（スタンド）があったら、ゲーム終了（勝敗判定）
-              } elseif (!empty($_POST['stand'])) {
-                  $end_game_flg = true;
-              }
-          }
-
-          // プレーヤーと、ディーラーの持ち札の合計を算出
-          $total_player_hands = sum_hands_cards($player_hands);
-          $total_dealer_hands = sum_hands_cards($dealer_hands);
-
-
-          // ゲームの勝敗判定
-          // プレーヤーかディーラーの持ち札が21を超えていたら、ゲーム終了
           $end_game_flg = true;
-
-          gameJudge($total_player_hands, $total_dealer_hands);
-
-          $_SESSION['cards'] = $cards;
-          $_SESSION['player_hands'] = $player_hands;
-          $_SESSION['dealer_hands'] = $dealer_hands;
-          $_SESSION['total_dealer_hands'] = $total_dealer_hands;
-          $_SESSION['total_player_hands'] = $total_player_hands;
-          $_SESSION['message'] = 'スタンドしました。';
-          $_SESSION['end_game_flg'] = $end_game_flg;
       }
-  
+    }
+
+    // ゲームの勝敗判定
+    // プレーヤーかディーラーの持ち札が21を超えていたら、ゲーム終了
+    gameJudge($total_player_hands,$total_dealer_hands);
+
+    $_SESSION['cards'] = $cards;
+    $_SESSION['player_hands'] = $player_hands;
+    $_SESSION['dealer_hands'] = $dealer_hands;
+    $_SESSION['total_dealer_hands'] = $total_dealer_hands;
+    $_SESSION['total_player_hands'] = $total_player_hands;
+    $_SESSION['message'] = 'カードを引いた！';
+    $_SESSION['end_game_flg'] = $end_game_flg;
+    var_dump($_SESSION['end_game_flg']);
+
+} elseif (!empty($_POST['restart'])) {
+    // もしリスタートボタンが押されたら、セッションをリセットする
+    $_SESSION = array();
+
+    // 山札の準備
+    $cards = init_cards();
+
+    // プレーヤーとディーラーに2枚ずつ配る
+    for ($i = 1; $i < 3; $i++) {
+        $player_hands[] = array_shift($cards);
+        $dealer_hands[] = array_shift($cards);
+    }
+
+    // プレーヤーと、ディーラーの持ち札の合計を算出
+    $total_player_hands = sum_hands_cards($player_hands);
+    $total_dealer_hands = sum_hands_cards($dealer_hands);
+
+    $end_game_flg = false;
+    gameJudge($total_player_hands,$total_dealer_hands);
+
+    $_SESSION['cards'] = $cards;
+    $_SESSION['player_hands'] = $player_hands;
+    $_SESSION['dealer_hands'] = $dealer_hands;
+    $_SESSION['total_dealer_hands'] = $total_dealer_hands;
+    $_SESSION['total_player_hands'] = $total_player_hands;
+    $_SESSION['end_game_flg'] = $end_game_flg;
+    $_SESSION['message'] = 'ゲーム再スタート！';
+
+  // もしスタンドボタンを押したら
+} elseif (!empty($_POST['stand'])) {
+    $cards = $_SESSION['cards'];
+    $player_hands = $_SESSION['player_hands'];
+    $dealer_hands = $_SESSION['dealer_hands'];
+
+    // プレーヤーと、ディーラーの持ち札の合計を算出
+    $total_player_hands = sum_hands_cards($player_hands);
+    $total_dealer_hands = sum_hands_cards($dealer_hands);
+
+    // ディーラーの次の手を判断する
+    // decideDealerTurn();
+    if (!empty($_POST['hit']) || !empty($_POST['stand'])) {
+        // ディーラーがカードを引くかどうか判断するための閾値を設定
+        $set_value = 16;
+        // 持ち札が16以下なら、ヒット(一枚引く)
+        if ($total_dealer_hands <= $set_value) {
+            $dealer_hands[] = array_shift($cards);
+            $total_dealer_hands = sum_hands_cards($dealer_hands);
+            // return $total_dealer_hands;
+        // POST送信（スタンド）があったら、ゲーム終了（勝敗判定）
+        }
+    }
+
+    // プレーヤーと、ディーラーの持ち札の合計を算出
+    $total_player_hands = sum_hands_cards($player_hands);
+    $total_dealer_hands = sum_hands_cards($dealer_hands);
+
+    $end_game_flg = true;
+
+    $_SESSION['cards'] = $cards;
+    $_SESSION['player_hands'] = $player_hands;
+    $_SESSION['dealer_hands'] = $dealer_hands;
+    $_SESSION['total_dealer_hands'] = $total_dealer_hands;
+    $_SESSION['total_player_hands'] = $total_player_hands;
+    $_SESSION['message'] = 'スタンドしました。';
+    $_SESSION['end_game_flg'] = $end_game_flg;
+    var_dump($_SESSION['end_game_flg']);
+}
 
 ?>
 
@@ -290,7 +284,6 @@ function startGame()
   <p class="message-area">
    <?php
    echo $_SESSION['message'];
-  //  echo "エンドフラグ：".$end_game_flg;
    ?>
   </p>
 </div>

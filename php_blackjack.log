@@ -3510,3 +3510,140 @@ Stack trace:
 [24-Feb-2020 01:24:03 Asia/Tokyo] PHP Notice:  Undefined index: end_game_flg in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 339
 [24-Feb-2020 01:24:13 Asia/Tokyo] PHP Notice:  Undefined index: end_game_flg in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 339
 [24-Feb-2020 01:24:16 Asia/Tokyo] PHP Notice:  Undefined index: end_game_flg in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 339
+[25-Feb-2020 22:12:01 Asia/Tokyo] PHP Notice:  Undefined index: end_game_flg in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 326
+[25-Feb-2020 22:12:05 Asia/Tokyo] PHP Notice:  Undefined index: end_game_flg in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 326
+[25-Feb-2020 22:12:10 Asia/Tokyo] PHP Notice:  Undefined index: end_game_flg in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 326
+[25-Feb-2020 22:16:52 Asia/Tokyo] PHP Notice:  Undefined index: mark in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 307
+[25-Feb-2020 22:16:52 Asia/Tokyo] PHP Notice:  Undefined index: mark in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 307
+[25-Feb-2020 22:16:52 Asia/Tokyo] PHP Notice:  Undefined index: mark in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 320
+[25-Feb-2020 22:16:52 Asia/Tokyo] PHP Notice:  Undefined index: mark in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 320
+[25-Feb-2020 22:19:14 Asia/Tokyo] PHP Notice:  Undefined index: mark in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 307
+[25-Feb-2020 22:19:14 Asia/Tokyo] PHP Notice:  Undefined index: mark in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 307
+[25-Feb-2020 22:19:14 Asia/Tokyo] PHP Notice:  Undefined index: mark in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 320
+[25-Feb-2020 22:19:14 Asia/Tokyo] PHP Notice:  Undefined index: mark in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 320
+[25-Feb-2020 22:20:05 Asia/Tokyo] PHP Notice:  Undefined index: number in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 48
+[25-Feb-2020 22:20:05 Asia/Tokyo] PHP Notice:  Undefined index: number in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 49
+[25-Feb-2020 22:20:05 Asia/Tokyo] PHP Notice:  Undefined index: mark in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 305
+[25-Feb-2020 22:20:05 Asia/Tokyo] PHP Notice:  Undefined index: face in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 305
+[25-Feb-2020 22:20:05 Asia/Tokyo] PHP Notice:  Undefined index: mark in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 318
+[25-Feb-2020 22:20:05 Asia/Tokyo] PHP Notice:  Undefined index: mark in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 318
+[25-Feb-2020 22:25:34 Asia/Tokyo] PHP Notice:  Undefined index: end_game_flg in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 324
+[25-Feb-2020 22:45:16 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:45:16 Asia/Tokyo] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:45:16 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 45
+[25-Feb-2020 22:45:18 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:45:18 Asia/Tokyo] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:45:18 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 45
+[25-Feb-2020 22:45:19 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:45:19 Asia/Tokyo] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:45:19 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 45
+[25-Feb-2020 22:45:20 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:45:20 Asia/Tokyo] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:45:20 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 45
+[25-Feb-2020 22:45:20 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:45:20 Asia/Tokyo] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:45:20 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 45
+[25-Feb-2020 22:45:26 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:45:26 Asia/Tokyo] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:45:26 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 45
+[25-Feb-2020 22:45:26 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:45:26 Asia/Tokyo] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:45:26 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 45
+[25-Feb-2020 22:45:33 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:45:33 Asia/Tokyo] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:45:33 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 45
+[25-Feb-2020 22:45:33 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:45:33 Asia/Tokyo] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:45:33 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 45
+[25-Feb-2020 22:47:00 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:47:00 Asia/Tokyo] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:47:00 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 45
+[25-Feb-2020 22:47:05 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:47:05 Asia/Tokyo] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:47:05 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 45
+[25-Feb-2020 22:48:06 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Unsupported operand types in /Applications/MAMP/htdocs/objective/brackjack/index.php:162
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 162
+[25-Feb-2020 22:48:13 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:48:13 Asia/Tokyo] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:48:13 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 45
+[25-Feb-2020 22:48:13 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:48:13 Asia/Tokyo] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:48:13 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 45
+[25-Feb-2020 22:48:14 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:48:14 Asia/Tokyo] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:48:14 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 45
+[25-Feb-2020 22:48:14 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:48:14 Asia/Tokyo] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:48:14 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 45
+[25-Feb-2020 22:48:15 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:48:15 Asia/Tokyo] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:48:15 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 45
+[25-Feb-2020 22:48:15 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:48:15 Asia/Tokyo] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:48:15 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 45
+[25-Feb-2020 22:48:15 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:48:15 Asia/Tokyo] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:48:15 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 45
+[25-Feb-2020 22:48:15 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:48:15 Asia/Tokyo] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:48:15 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 45
+[25-Feb-2020 22:48:15 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:48:15 Asia/Tokyo] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:48:15 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 45
+[25-Feb-2020 22:48:15 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:48:15 Asia/Tokyo] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:48:15 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 45
+[25-Feb-2020 22:48:15 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:48:15 Asia/Tokyo] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:48:15 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 45
+[25-Feb-2020 22:48:27 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:48:27 Asia/Tokyo] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:48:27 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 45
+[25-Feb-2020 22:48:29 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:48:29 Asia/Tokyo] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:48:29 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 45
+[25-Feb-2020 22:48:29 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:48:29 Asia/Tokyo] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:48:29 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 45
+[25-Feb-2020 22:48:30 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:48:30 Asia/Tokyo] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:48:30 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 45
+[25-Feb-2020 22:48:50 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:48:50 Asia/Tokyo] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:48:50 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 45
+[25-Feb-2020 22:48:52 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:48:52 Asia/Tokyo] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:48:52 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 45
+[25-Feb-2020 22:48:55 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:48:55 Asia/Tokyo] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:48:55 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 45
+[25-Feb-2020 22:49:00 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:49:00 Asia/Tokyo] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:49:00 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 45
+[25-Feb-2020 22:49:00 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:49:00 Asia/Tokyo] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:49:00 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 45
+[25-Feb-2020 22:49:02 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:49:02 Asia/Tokyo] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:49:02 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 45
+[25-Feb-2020 22:52:39 Asia/Tokyo] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 160
+[25-Feb-2020 22:52:39 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:52:39 Asia/Tokyo] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:52:39 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 45
+[25-Feb-2020 22:52:39 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:52:39 Asia/Tokyo] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:52:39 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 45
+[25-Feb-2020 22:58:56 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:58:56 Asia/Tokyo] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:58:56 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 45
+[25-Feb-2020 22:58:58 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:58:58 Asia/Tokyo] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:58:58 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 45
+[25-Feb-2020 22:58:58 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:58:58 Asia/Tokyo] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:58:58 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 45
+[25-Feb-2020 22:59:15 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:59:15 Asia/Tokyo] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 44
+[25-Feb-2020 22:59:15 Asia/Tokyo] PHP Warning:  Illegal string offset 'number' in /Applications/MAMP/htdocs/objective/brackjack/index.php on line 45
