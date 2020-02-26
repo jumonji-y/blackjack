@@ -1,0 +1,79 @@
+[27-Feb-2020 01:09:27 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, object given in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 29
+[27-Feb-2020 01:09:27 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, object given in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 30
+[27-Feb-2020 01:09:27 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, object given in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 29
+[27-Feb-2020 01:09:27 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, object given in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 30
+[27-Feb-2020 01:09:46 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, object given in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 29
+[27-Feb-2020 01:09:46 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, object given in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 30
+[27-Feb-2020 01:09:46 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, object given in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 29
+[27-Feb-2020 01:09:46 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, object given in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 30
+[27-Feb-2020 01:11:32 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, object given in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 28
+[27-Feb-2020 01:11:32 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, object given in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 29
+[27-Feb-2020 01:11:32 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, object given in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 28
+[27-Feb-2020 01:11:32 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, object given in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 29
+[27-Feb-2020 01:12:20 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, object given in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 28
+[27-Feb-2020 01:12:20 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, object given in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 29
+[27-Feb-2020 01:12:20 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, object given in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 28
+[27-Feb-2020 01:12:20 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, object given in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 29
+[27-Feb-2020 01:12:42 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, object given in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 28
+[27-Feb-2020 01:12:42 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, object given in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 29
+[27-Feb-2020 01:12:42 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, object given in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 28
+[27-Feb-2020 01:12:42 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, object given in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 29
+[27-Feb-2020 01:15:09 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, object given in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 28
+[27-Feb-2020 01:15:09 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, object given in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 29
+[27-Feb-2020 01:15:39 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, object given in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 28
+[27-Feb-2020 01:15:39 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, object given in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 29
+[27-Feb-2020 01:15:53 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, object given in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 28
+[27-Feb-2020 01:15:53 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, object given in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 29
+[27-Feb-2020 01:18:52 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, object given in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 28
+[27-Feb-2020 01:18:52 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, object given in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 29
+[27-Feb-2020 01:21:19 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Cannot use object of type Card as array in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php:28
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 28
+[27-Feb-2020 01:21:32 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Cannot use object of type Card as array in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php:28
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 28
+[27-Feb-2020 01:22:00 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Cannot use object of type Card as array in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php:28
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 28
+[27-Feb-2020 01:22:01 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Cannot use object of type Card as array in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php:28
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 28
+[27-Feb-2020 01:22:33 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Cannot use object of type Card as array in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php:28
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 28
+[27-Feb-2020 01:23:01 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Cannot use object of type Card as array in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php:28
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 28
+[27-Feb-2020 01:23:54 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Cannot use object of type Card as array in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php:28
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 28
+[27-Feb-2020 01:24:14 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, object given in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 29
+[27-Feb-2020 01:24:22 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Cannot use object of type Card as array in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php:28
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 28
+[27-Feb-2020 01:33:09 Asia/Tokyo] PHP Notice:  Undefined property: Card::$face in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 25
+[27-Feb-2020 01:33:09 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Cannot use object of type Card as array in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php:28
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 28
+[27-Feb-2020 01:33:36 Asia/Tokyo] PHP Notice:  Undefined property: Card::$number in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 25
+[27-Feb-2020 01:33:36 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Cannot use object of type Card as array in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php:28
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 28
+[27-Feb-2020 01:34:56 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Cannot use object of type Card as array in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php:28
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 28
+[27-Feb-2020 01:36:01 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Cannot use object of type Card as array in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php:25
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/objective/brackjack/blackjack_object/index.php on line 25
