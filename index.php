@@ -1,3 +1,4 @@
+<!-- ver0.2  素のPHPでの完成版 -->
 <?php
 // 初期処理
 ini_set('log_errors', 'on'); // ログを取るか
